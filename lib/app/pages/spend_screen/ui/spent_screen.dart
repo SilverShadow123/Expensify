@@ -16,6 +16,7 @@ SpentScreen({super.key});
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        iconTheme: const IconThemeData(color: Colors.white),
         title: const Text('Spent Amount',
           style: TextStyle(
             fontSize: 22,

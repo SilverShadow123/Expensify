@@ -30,6 +30,7 @@ class ProfileScreen extends StatelessWidget {
     // Here we're using a FutureBuilder to retrieve the user's name from Firestore.
     return Scaffold(
       appBar: AppBar(
+        iconTheme: const IconThemeData(color: Colors.white),
         title: const Text('Profile', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white)),
         backgroundColor: Colors.indigo,
         centerTitle: true,

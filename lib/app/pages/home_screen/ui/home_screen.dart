@@ -38,6 +38,7 @@ class HomeScreen extends GetView<HomeController> {
       ),
 
       appBar: AppBar(
+        iconTheme: const IconThemeData(color: Colors.white),
         title: const Text(
           'Expensify',
           style: TextStyle(

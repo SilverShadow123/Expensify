@@ -16,6 +16,7 @@ class GraphScreen extends GetView<GraphController> {
 
     return Scaffold(
       appBar: AppBar(
+        iconTheme: const IconThemeData(color: Colors.white),
         title: const Text("Graphs",
           style: TextStyle(
             fontSize: 22,
